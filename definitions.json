@@ -28,7 +28,8 @@
     "hdfs-site": {
       "dfs.http.policy": "HTTPS_ONLY",
       "dfs.client.https.need-auth": "false",
-      "dfs.https.enable": "true"
+      "dfs.https.enable": "true",
+      "dfs.namenode.secondary.https-address": "50091"
     },
     "ranger-hdfs-policymgr-ssl": {
       "xasecure.policymgr.clientssl.keystore": "KEYSTORERANGER",
